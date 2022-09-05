@@ -5,7 +5,8 @@
   "homepage": "https://Nihaiev.github.io/js_mod11",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /js_mod11/"
+    "build": "parcel build src/*.html --public-url /js_mod11/",
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
